@@ -1,1 +1,9 @@
+The original trading data for the six stocks is too large to upload. Here’s a brief introduction on how I downloaded this trading data.
 
+- Step 1: Open the official website https://wrds-www.wharton.upenn.edu/ and register for an account.
+
+- Step 2: After successfully logging into your account, you will see the databases your school subscribes to under "Subscriptions." I want to download data from the New York Stock Exchange (NYSE), so I select the TAQ database. Upon clicking, it introduces this database: "The NYSE Trade and Quote (TAQ) database offers tick-by-tick trade and quote data of all activity within the U.S. National Market System. TAQ provides transaction information at the intraday level (to the microsecond) covering over 10,000 stock issues listed on 16 major American exchanges, including the New York Stock Exchange (NYSE), American Stock Exchange (AMEX), and Nasdaq."
+
+- Step 3: I see that there are two datasets available: one is "Millisecond Trade and Quote - Daily Product" (2003 - present, updated daily), and the other is "Trade and Quote - Monthly Product" (1993 - 2014). Since I want to obtain the most recent data, I choose the first dataset. The first option is further divided into consolidated quotes (which show the bids from buyers and sellers at that time), consolidated trades (which detail the completed trades), and Millisecond Intraday Indicators by WRDS (which provide some summary indicators based on the conditions at that time). Since I want the actual trading situation, I select the second option, trades.
+
+- Step 4: After clicking on consolidated trades, I can submit my task. I select the stock and the time, and then submit the task. If the submitted task is large, the waiting time may be long. You can check the status of your tasks by clicking on "running queries" in the upper right corner of your account.
