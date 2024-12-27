@@ -85,14 +85,4 @@ end
 toc;
 
 
-%%
-figure
-plot(results1(:,end-1),results1(:,end),'o')
-hold on
-plot(results2(:,end-1),results2(:,end),'o')
-hold on
-plot(results3(:,end-1),results3(:,end),'o')
-hold on
-plot(results4(:,end-1),results4(:,end),'o')
-xlim([-10,10])
-ylim([0,100])
+save('new_skew_kurt.mat')
